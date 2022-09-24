@@ -15,6 +15,7 @@ class TestTask2 {
     int[] test33 = {};
     int[] test4 = {1,2,3,1,2,3,4,4,5,5,2,4,43};
     int[] test44 = {43};
+
     @Test
     void checkNumbers() {
         Task2 task2 = new Task2();

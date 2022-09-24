@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class Task1 {
-
      static int[] massive = {1,2,3,1,2,3,4,4,5,5,2,2,43};
 
     public static int[] numbers(int[] massive) {
@@ -30,5 +29,4 @@ public class Task1 {
         System.out.println(Arrays.toString(array));
         return array;
     }
-
 }
