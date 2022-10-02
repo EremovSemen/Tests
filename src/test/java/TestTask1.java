@@ -22,8 +22,6 @@ class TestTask1 {
     int[] test4 = {1,2,3,1,2,3,4,4,5,5,2,4,43};
     int[] test44 = {43};
 
-
-
     @Test
     void numbers() {
         Assertions.assertEquals(Arrays.toString(test11),Arrays.toString(Task1.numbers(test1)));
@@ -43,8 +41,4 @@ class TestTask1 {
     void numbers4() {
         Assertions.assertEquals(Arrays.toString(test44),Arrays.toString(Task1.numbers(test4)));
     }
-
-
-
-
 }
